@@ -12,15 +12,6 @@ function Counter(props) {
         classes += value === 0 ? 'bg-warning' : ' bg-primary'
         return classes
     }
-    function hendleIncrement () {
-    //  setValue(value + 1)
-    console.log('+++++++++')
-    }
-    function hendleDecrement () {
-    //  setValue(value - 1)
-    console.log('-------------')
-    }
-
     return (
         <div>
             <span>{props.name}</span>

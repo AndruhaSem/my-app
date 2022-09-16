@@ -25,7 +25,6 @@ function CounterList() {
     function hendleDecrement (id) {
         const newCounter = counters.map((counter) => { if(counter.id === id) {counter.value -= 1} return counter})
         setCounters(newCounter)
-        // setCounters(prevState => prevState.map(counter => { if(counter.id === id) {return console.log('dsgsdgd')} }))
     }
     return (
         <>
